@@ -26,6 +26,7 @@
     </nav>
   </div>
 </header>
+
 <main class="page-wrap">
   <div class="container">
 
@@ -33,8 +34,10 @@
     <aside class="col-lg-4">
       <div class="sidebar">
         <div class="text-center mb-3">
-          <img class="profile-photo" src="assets/My_Photo.JPG" alt="Sajjadul Bari photo"  />
+          <!-- ✅ Updated image path -->
+          <img class="profile-photo" src="assets/My_Photo.JPG" alt="Sajjadul Bari photo" />
         </div>
+
         <div class="card card-slim mb-3">
           <div class="card-body">
             <div class="d-flex align-items-center justify-content-between mb-2">
@@ -45,7 +48,7 @@
             <hr>
             <ul class="meta-list small">
               <li><span class="meta-label">Email</span><span><a href="mailto:sbari2@cougarnet.uh.edu">sbari2@cougarnet.uh.edu</a></span></li>
-              <li><span class="meta-label">Phone</span><span><a href="tel:+13465203249">+1 (346) 520‑3249</a></span></li>
+              <li><span class="meta-label">Phone</span><span><a href="tel:+13465203249">+1 (346) 520-3249</a></span></li>
               <li><span class="meta-label">Address</span><span>7575 Plum Creek Drive, #8106, Houston, TX 77012</span></li>
             </ul>
             <div class="d-grid gap-2 mt-3">
@@ -54,6 +57,7 @@
             </div>
           </div>
         </div>
+
         <div class="card card-slim">
           <div class="card-body">
             <div class="fw-semibold mb-2">Research Interests</div>
@@ -67,9 +71,11 @@
         </div>
       </div>
     </aside>
+
     <section class="col-lg-8">
       <h2 class="section-title">Welcome <span class="rule"></span></h2>
-      <p>I work on <strong>computational imaging</strong>, <strong>image processing</strong>, and <strong>optimization</strong>, developing robust and reproducible pipelines for denoising, deblurring, and data‑efficient reconstruction.</p>
+      <p>I work on <strong>computational imaging</strong>, <strong>image processing</strong>, and <strong>optimization</strong>, developing robust and reproducible pipelines for denoising, deblurring, and data-efficient reconstruction.</p>
+
       <div class="row g-3">
         <div class="col-md-6">
           <div class="card card-slim h-100">
@@ -83,11 +89,12 @@
             </div>
           </div>
         </div>
+
         <div class="col-md-6">
           <div class="card card-slim h-100">
             <div class="card-body">
               <div class="fw-semibold">Tools</div>
-              <div class="small text-muted">Python, MATLAB, NumPy/SciPy, scikit‑learn, PyTorch, OpenCV, LaTeX/Beamer, Linux/HPC</div>
+              <div class="small text-muted">Python, MATLAB, NumPy/SciPy, scikit-learn, PyTorch, OpenCV, LaTeX/Beamer, Linux/HPC</div>
             </div>
           </div>
         </div>
@@ -96,13 +103,17 @@
   </div>
   </div>
 </main>
+
 <footer class="py-4">
   <div class="container d-flex flex-wrap justify-content-between align-items-center gap-3">
     <div class="small">© <span id="year"></span> Sajjadul Bari</div>
     <div class="small text-muted">UH-inspired multi-page faculty layout</div>
   </div>
 </footer>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
 </body>
 </html>
